@@ -19,7 +19,7 @@ This is one of the overloked areas especially after introduction of ARC and with
 By default all the members of the class/struct/enums are internal. But there could be instances where you want to hide members properties or methods for the purpose of abstraction or encapsulation, from someone who could potentially use your interface. This is the checkmark to make sure you comply to that. Also, marking the class as final help the compiler optimize and redcue the binary size. So, make sure to use the keyword and mark classes as final to indicate the compiler that this wont be inherted further. (until you actuall need to inherit it)
 
 - [x] Remove unnecessary inferencing to Objective-C dispatch using @objc
-This one is not so important, after the Swift 4 stopped implictly adding @objc to all classes inherited from NSObject. But this checkmark is just there to double check that which helps in reducing the size of the binary. 
+This one is not so important, after Swift 4 stopped implictly adding @objc to all classes inherited from NSObject. But this checkmark is just there to double check that which helps in reducing the size of the binary. 
 
 - [x] Runs as expected on all the size classes
 Size classes helps our UI adapt to the wide variety of idevice that exist. This is especially important when you are working on the User Interfact. However small change it may be, it may not necessarily work on other size classes. So, this check is just to make sure you have ran your code on all the different size classes. 
