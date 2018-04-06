@@ -21,7 +21,7 @@ By default all the members of the class/struct/enums are internal. But there cou
 - [x] Remove unnecessary inferencing to Objective-C dispatch using @objc
 This one is not so important, after Swift 4 stopped implictly adding @objc to all classes inherited from NSObject. But this checkmark is just there to double check that which helps in reducing the size of the binary. 
 
-- [x] Runs as expected on all the size classes
+- [x] Runs as expected on all the size classes  
 Size classes helps our UI adapt to the wide variety of idevice that exist. This is especially important when you are working on the User Interfact. However small change it may be, it may not necessarily work on other size classes. So, this check is just to make sure you have ran your code on all the different size classes. 
 
 - [x] Unit test/ UI test added.  
