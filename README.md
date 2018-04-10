@@ -1,7 +1,7 @@
 # How-a-pull-request-should-be
-Basic checkpoints before submitting a pull request/ merge request for iOS Development using Xcode and Swift/ObjC.
+Basic checkpoints before submitting a pull request/ merge request for iOS development using Xcode and Swift/ObjC.
 
-These are some of the check points that we follow in the company where I work. These checkpoints are not for the reviewer per se but more for the person submitting the Pull/Merge request to have list to go through before finally raising the flag for 'ready for peer review'. 
+These are some of the check points that we follow in the company where I work. These checkpoints are not for the reviewer, but more for the person submitting the pull/merge request to have list to go through before finally raising the flag for 'ready for peer review'. 
 
 - [x] Does the code compile for all relevant targets.  
 I know this sounds rather obvious, but there are times when we would make this one line change or even one character change for some defect fix and don't really check to see of the code compiles. This is especially important if you add a new file/resource and forgot to assign target membership to all the relevant targets. 
